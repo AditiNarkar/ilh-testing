@@ -1,8 +1,9 @@
-// Original issue: Calculate the sum of a large dataset
 function calculateSum(data) {
   let sum = 0;
-  for (let i = 0; i < data.length; i++) {
-    sum += data[i]; // Summing each element
+  let i = 0;
+  while (i < data.length) {
+    sum += data[i];  // Using while loop for summation
+    i++;
   }
   return sum;
 }
