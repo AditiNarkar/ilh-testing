@@ -5,3 +5,7 @@ function calculateSum(data) {
   }
   return sum;
 }
+
+function fix26() {
+  console.log("26")
+}
