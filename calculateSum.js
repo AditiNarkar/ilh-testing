@@ -1,3 +1,7 @@
 function calculateSum(data) {
-  return data.reduce((acc, num) => acc + num, 0);  // Using reduce method for efficient summation
+  let sum = 0;
+  for (let num of data) {
+    sum += num;  // Using for...of loop for summing elements
+  }
+  return sum;
 }
