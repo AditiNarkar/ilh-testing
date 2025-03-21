@@ -5,3 +5,6 @@ function calculateSum(data) {
   }
   return sum;
 }
+function llii_33() {
+  console.log("333")
+}
