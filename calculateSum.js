@@ -3,5 +3,6 @@ function calculateSum(data) {
   for (let num of data) {
     sum += num;  // Using for...of loop for summing elements
   }
+  console.log("eeeee")
   return sum;
 }
