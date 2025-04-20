@@ -4,5 +4,6 @@ function calculateSum(data) {
     sum += num;  // Using for...of loop for summing elements
   }
   console.log("eeeee")
+  console.log("eeeee")
   return sum;
 }
