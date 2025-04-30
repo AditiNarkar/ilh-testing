@@ -6,3 +6,7 @@ function calculateSum(data) {
   console.log("eeeee")
   return sum;
 }
+
+function fix26() {
+  console.log("26")
+}
