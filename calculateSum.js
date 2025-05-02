@@ -6,3 +6,6 @@ function calculateSum(data) {
   console.log("eeeee")
   return sum;
 }
+function calcOne() {
+  return "one";
+}
